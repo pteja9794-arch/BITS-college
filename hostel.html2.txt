@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Room Allocation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Hostel Room Allocation System</h1>
+
+        <div class="form-box">
+            <input type="text" id="studentName" placeholder="Enter Student Name">
+            <input type="text" id="studentID" placeholder="Enter Student ID">
+            <button onclick="allocateRoom()">Allocate Room</button>
+        </div>
+
+        <h2>Allocated Rooms</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Student ID</th>
+                    <th>Room Number</th>
+                </tr>
+            </thead>
+            <tbody id="allocationTable">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
